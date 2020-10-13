@@ -8,25 +8,50 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     </head>
-    <body>
+    <body background="/image/bg1.jpg">
+    <!-- Bootstrap Contact From -->
+    <div class="form">
 
-        <section class="form">
-            <div class="form_main">
-              <div class="form_div">
-                <form>
-                  <input  class="input"type="text" placeholder="Full Name"  required/>
-                  <input  class="input"type="email" placeholder="Email Address" required/>
-                  <input class="input" type="number0" placeholder="Mobile number" />
-                  <textarea class="input" placeholder="Write your message here"> </textarea>
-                  <input class="submit_btn" type="submit" value="submit" ></input>
-                </form>
-              </div>
-              <div class="ice_div">
-                <img src="image/bg2.jpg" alt="" />
-              </div>
-            </div>
-          </section>
+      <h2>Contact Us From Using Bootstrap</h1>
+        <hr>
+
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">First Name</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Somesh">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Last Name</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Dahatonde">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Email id</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="example@gmail.com">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address 1</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"> <br>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Write us </label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="type your message here"></textarea>
+          </div>
+        </div>
+      
+          
+        <button type="submit" class="btn btn-primary btn-lg">Send</button>
+      </form>
+
+    </div>
+
+    <!-- Bootstrap Contact From End -->
   
     </body>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </html>
