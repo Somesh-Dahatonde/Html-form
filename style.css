@@ -33,7 +33,7 @@ h2{
 
   .button {
     height: 50px;
-    width: 150px;
+    width: 100%;
     background-color: orange;
     border: none;
     border-radius: 7px;
