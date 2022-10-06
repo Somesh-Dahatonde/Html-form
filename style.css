@@ -1,19 +1,82 @@
-.body{
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+#captchaBackground {
+    height: 220px;
+    width: 250px;
+    background-color: #2d3748;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-h2{
-  text-align: center;
+#captchaHeading {
+    color: white;
 }
 
-.label{
-  color: white;
+#captcha {
+    height: 80%;
+    width: 80%;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: auto;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-  .form{
+#submitButton {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #08e5ff;
+    border: 0px;
+    font-weight: bold;
+}
+
+#refreshButton {
+    background-color: #08e5ff;
+    border: 0px;
+    font-weight: bold;
+}
+
+#textBox {
+    height: 25px;
+}
+
+.incorrectCaptcha {
+    color: #FF0000;
+}
+
+.correctCaptcha {
+    color: #7FFF00;
+}
+
+  .body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .label {
+    color: white;
+  }
+
+
+  .form {
     margin: auto;
     width: 650px;
     margin-top: 80px;
@@ -28,7 +91,7 @@ h2{
     padding-right: 20px;
     padding-bottom: 30px;
     color: white;
-    
+
   }
 
   .button {
@@ -38,4 +101,9 @@ h2{
     border: none;
     border-radius: 7px;
 
+  }
+
+
+  age {
+    font-family: sans-serif, Arial;
   }
