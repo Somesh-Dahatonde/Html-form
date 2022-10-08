@@ -11,9 +11,11 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<body background="/Html-form/image/bg.jpg">
+  </head>
+
+<body background="./image/bg.jpg">
   <!-- Bootstrap Contact From -->
   <div class="form">
 
@@ -24,11 +26,11 @@
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputEmail4">Usernamex</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Somesh">
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Username">
           </div>
           <div class="form-group col-md-6">
             <label for="inputPassword4">password</label>
-            <input type="password" class="form-control" id="inputPassword4" placeholder="Dahatonde">
+            <input type="password" class="form-control" id="inputPassword4" placeholder="********">
           </div>
         </div>
         <div class="form-group">
@@ -37,35 +39,34 @@
         </div>
         <div class="form-group">
           <label for="inputAddress2">Address 1</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"> <br>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Enter Current Address"> <br>
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Write us </label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-              placeholder="type your message here"></textarea>
+              placeholder="Type Your Message Here"></textarea>
           </div>
-    
-      </div>
-        <div class="center">
-            <h1 id="captchaHeading">
-            </h1>
-            <div id="captchaBackground">
-                <canvas id="captcha">captcha text</canvas>
-                <input id="textBox" type="text" name="text">
-                <div id="buttons"></div>
-                    <button id="refreshButton" type="submit">Refresh</button>
-                </div>
-                <button type="submit" class="button">Send</button>
-                <span id="output"></span>
-            </div>
+
         </div>
-       
-       
+        <div class="center">
+          <div class="my">
+            <div id="captchaBackground">
+              <canvas id="captcha">captcha Text</canvas>
+              <input id="textBox" type="text" name="text">
+            </div>
+              <div class="refresh"><button style="font-size:20px">Refresh<i class="fa fa-refresh"></i></button></div>
+          </div>
+          <button type="submit" class="button">Submit</button>
+          <span id="output"></span>
+        </div>
+  </div>
 
-  
-    
-      </form>
 
- 
+
+
+
+  </form>
+
+
   <!-- Bootstrap Contact From End -->
 
 </body>

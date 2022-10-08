@@ -3,13 +3,24 @@
 
 
 #captchaBackground {
-    height: 220px;
-    width: 250px;
+    height: 65px;
+    width: 203px;
     background-color: #2d3748;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 9px;
+
+}
+canvas{
+  font-weight: 400;
+}
+
+.my{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 #captchaHeading {
@@ -51,6 +62,7 @@
 
 #textBox {
     height: 25px;
+    margin-bottom: 20px;
 }
 
 .incorrectCaptcha {
@@ -80,7 +92,7 @@
     margin: auto;
     width: 650px;
     margin-top: 80px;
-    height: 600px;
+    height: auto;
     background-color: rgba(15, 14, 14, 0.192);
     background-position: center;
     background-size: cover;
@@ -97,9 +109,10 @@
   .button {
     height: 50px;
     width: 100%;
-    background-color: orange;
+    background-color: aqua;
     border: none;
     border-radius: 7px;
+    margin-top: 20px;
 
   }
 
